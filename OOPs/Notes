@@ -1,0 +1,39 @@
+OOP:
+__________________________________________________________________________________________
+a=[12,24,'abc']
+a=list(cgh)
+__________________________________________________________________________________________
+1.class --> Blue Print/Plan/Design
+2.object --> Physical existance of class
+3.Refrence Variable --> Refrence Variable is used to access features of a objects
+___________________________________________________________________________________________
+class student:
+          '''doc string'''
+___________________________________________________________________________________________
+Pascal case -> MachineLearning
+camel case -> machineLearning
+snake case -> machine_learning
+____________________________________________________________________________________________
+TYPES OF VARIABLES 
+1.LOCAL VARIABLE
+2.GLOBAL VARIABLE
+____________________________________________________________________________________________
+TYPES OF VARIABLE IN PYTHON in OOPs:
+1.Instance variable (object level variable)
+2.Static variable(class level variable)
+3.Local variable(method level variable)
+_____________________________________________________________________________________________
+Types of methods :                                                                           
+1.instance method
+2.class method 
+3.static method
+_____________________________________________________________________________________________
+self:
+
+1. self is a reference variable, which is always pointing to current object, within the python class, to access 
+current object we use self. 
+2. the first argument of constructor is always self, and always slef should be 
+there. 
+3. self is not a keyword , instead of self we can write milf , bilf , deepika etc.
+4.we can use self alawyawith in class.s
+5.inside instance method we write self. 
