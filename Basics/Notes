@@ -1,0 +1,138 @@
+PYTHON 
+                                                                                                        ---------------
+
+#operator :-
+-----------
+1) arithmetic                      +,-,,*,/,//,%
+2)logical                             and,or,not
+3)relatoinal/comparison    >,<,>=,<=,==,!=
+4)assignment                     =,+=,-=,*=,/=,//=
+5)bitwise                            &,|,^
+6)identity                           is,is not
+7)membership                   in,not
+----------------------------------------------------------
+#Use of brackets :-
+-------------------
+1. ( ) --------> function , expression , tuple
+2. [ ] --------> List , indexing , slicing
+3. { } --------> Dictionary , Set
+4. < > ------> no use in python. 
+----------------------------------------------------------
+#Datatypes :-
+-------------
+1.) Numeric ----> int , float , complex (eg. 2+3i)
+ Eg.----->a = 5 , b = 5.5 , c = 3+2j
+2.) Sequence ----> string , list , tuple 
+Eg. ------> STRING
+' ' / " " / " " " /''' ''' 
+>>>string is sequence of character
+>>>string is imutable (that can't be changed)
+(assign,delete)
+>>>Indexing or slicing is used for accesing the string 
+>>>string is in order form
+Eg------> LIST 
+>>>[5,'abc',3+2j ] etc. 
+>>>mutable
+>>>indexing, slicing, looping
+>>>different type of data can be stored in one list 
+>>>Homo/Hetero both 
+>>>built-in
+Eg------> TUPLE 
+>>> ( )
+>>> comma seperated value 
+>>>immutable
+>>>both 
+>>> indexing , slicing , looping
+3.) Dictionary ----> Key : value pair 
+4.) Boolean -----> True , false 
+5.) Set ------> Unique collection 
+#NOTE :-
+-----> for switching in char to value we use "ord"
+and for vice versa we use "chr".
+Slicing :-
+--------
+a[ start point : stop point (exclude) : step size ]
+(by default is 0)                                 (by default is 1 ) 
+step size can be added further the result will not change eg a[9:11111111111]
+it will still not be giving an errror and from "hello world " it print "ld" .
+
+
+-----------------------------------------
+3.dictonary
+i.key:value pair
+ii:{}
+iii:both
+iv:mutable
+v:indexing/slicing not possible
+vi:looping
+vii:built-in-function
+IT IS USED TO STORE DATABASE IN A SEQUENCED WAY
+
+-----------------------------------
+4.set
+i.unique collection
+ii.{}
+iii.mutable
+iv.indexing/slicing not possible
+v.unorder
+
+------------------------------------------
+RANGE(starting point,stop point step)
+     B.D 0            exclude    B.D1
+
+-----------------------------------------
+
+COMPREHENSION:
+I.4 types of comprehension
+a.list comprehension
+b.dictionary comprehension
+c.set comprehension
+d.generatore comprehension
+II.one line statement
+III.one line elegant approach
+
+-------------------------------------------
+FUNCTIONS:
+I.built in function(pre-define)
+II.user defined function(UDF)
+
+-------------------------------------------------
+TYPES OF UDF
+1.no input no output
+2.no input but output
+3.input but no output
+4.both input and output
+---------------------------------------------------------
+MIXED TYPE OF FUNCTION
+1.Taking multiple input
+2.Returning multiple outputs
+3.Default Values
+4.keywords arguments
+5.*args
+6.**kwargs
+
+----------------------------------------------------
+HAPPY BIRTHDAY TO YOU
+HAPPY BIRTHDAY TO YOU
+HAPPY BIRTHDAY DEAR 'XYZ'
+HAPPY BIRTHDAY TO YOU
+HAPPY BIRTHDAY TO YOU
+
+----------------------------------------------------
+
+ANONYMOUS FUNCTIONS
+I.LAMBDA
+II.MAP----> map(function , iterable)
+III.FILTER
+---------------------------------------------------
+
+MODULE ,PACKAGES ,LIBRARIES
+------------------------------
+MODULE : Module is nothing but a ".py" file
+for example: Math,Os,Date Time,Calendar,Random
+----------------------------------------------
+PACKAGES:Collection of modules,Packages should have __init__.py file
+Example: Numpy,Pandas,Seaborn
+---------------------------------------------------
+LIBRARIES:It is a collection of packages.
+Example:Tensor Flow,Kears,
